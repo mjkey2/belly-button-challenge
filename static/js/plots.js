@@ -70,6 +70,7 @@ d3.json("samples.json").then(function(data) {
   Plotly.newPlot("bar", data, layout);
 });
 
+
 // Demographic Info
 // Read in the samples.json data using D3
 d3.json("samples.json").then(function(data) {
