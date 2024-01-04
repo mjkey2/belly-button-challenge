@@ -216,6 +216,3 @@ d3.select("#selDataset").on("change", function() {
   // Call the optionChanged function with the selected sample
   optionChanged(selectedSample);
 });
-
-// Call the optionChanged function with the first Test Subject ID to initialize the page
-optionChanged(subjectIDs[0]);
